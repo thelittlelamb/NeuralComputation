@@ -5,3 +5,6 @@ The files in this folder are the official problem set files including my solutio
 #### Topics
 
 PSet 1: Diffusion, equivalent neuron circuit and Nernst potential
+
+PSet2: LIF model, HH model
+
