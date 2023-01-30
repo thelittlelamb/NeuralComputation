@@ -41,3 +41,6 @@ I(t>=Tstart & t<Tstop) = Iamplitude; % Assign amplitude when current is on
     end
 
 
+
+
+
