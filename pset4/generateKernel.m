@@ -13,6 +13,7 @@ Sigma =  20*inv(R)*[40 0 ; 0 1]*R;
 x1 = 1:(durK/dt); x2 = 1:m;
 % generates kernel
 [X1,X2] = meshgrid(x1,x2);
+% mvpdf Multivariate normal probability density function
 F = mvnpdf([X1(:) X2(:)],mu1,Sigma)+ mvnpdf([X1(:) X2(:)],mu2,Sigma)...
     -mvnpdf([X1(:) X2(:)],mu3,Sigma)-mvnpdf([X1(:) X2(:)],mu4,Sigma);
 F = reshape(F,length(x2),length(x1));
